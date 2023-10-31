@@ -5,12 +5,16 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are the names of the individual pieces of a CSS rule?
+  selector and ruleset (rules)
 
 - In CSS, how do you select elements by their `class` attribute?
+  using a period (.)
 
 - In CSS, how do you select elements by their tag name?
+  using the tag/element name
 
 - In CSS, how do you select an element by its `id` attribute?
+  using a hashtag (#)
 
 ## Notes
 
