@@ -1,0 +1,50 @@
+* {
+  font-family: 'Brandon Grotesque', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(236, 93, 87);
+  font-weight: 550;
+}
+
+label {
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.userData {
+  font-size: 18px;
+  width: 450px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: rgb(168, 172, 171);
+}
+
+select {
+  background-color: rgb(235, 235, 235);
+}
+
+div {
+  width: 450px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+input.submitButton {
+  float: right;
+  font-family: 'Brandon Grotesque', sans-serif;
+  color: white;
+  background-color: rgb(236, 93, 87);
+  border: rgb(236, 93, 87);
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
