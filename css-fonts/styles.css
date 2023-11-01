@@ -1,0 +1,16 @@
+h1 {
+  font-family: 'Borel', cursive;
+  font-family: 'Edu TAS Beginner', cursive;
+  font-family: 'Handjet', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+  font-family: 'Caveat', cursive;
+  line-height: 25px;
+}
