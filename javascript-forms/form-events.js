@@ -13,10 +13,26 @@ function handleInput(event) {
   console.log(event.target.value);
 }
 
-const $focusControl = document.querySelector('#user-name');
-const $blurControl = document.querySelector('#user-name');
-const $inputControl = document.querySelector('#user-name');
+const $focusName = document.querySelector('#user-name');
+const $blurName = document.querySelector('#user-name');
+const $inputName = document.querySelector('#user-name');
 
-$focusControl.addEventListener('focus', handleFocus);
-$blurControl.addEventListener('blur', handleBlur);
-$inputControl.addEventListener('input', handleInput);
+$focusName.addEventListener('focus', handleFocus);
+$blurName.addEventListener('blur', handleBlur);
+$inputName.addEventListener('input', handleInput);
+
+const $focusEmail = document.querySelector('#user-email');
+const $blurEmail = document.querySelector('#user-email');
+const $inputEmail = document.querySelector('#user-email');
+
+$focusEmail.addEventListener('focus', handleFocus);
+$blurEmail.addEventListener('blur', handleBlur);
+$inputEmail.addEventListener('input', handleInput);
+
+const $focusMessage = document.querySelector('#user-message');
+const $blurMessage = document.querySelector('#user-message');
+const $inputMessage = document.querySelector('#user-message');
+
+$focusMessage.addEventListener('focus', handleFocus);
+$blurMessage.addEventListener('blur', handleBlur);
+$inputMessage.addEventListener('input', handleInput);
