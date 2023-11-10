@@ -11,7 +11,7 @@ the point at which the css adapts to the screen size/changes
 the fixed width does not adapt to changes in screen size whereas the percentage references the current screen size and keeps proportions constant
 
 - If you introduce CSS rules for a smaller `min-width` _after_ the styles for a larger `min-width` in your style sheet, the CSS rules for the **smaller** `min-width` will "win". Why is that?
-the smaller width is the one to be applied due to specificity
+the smaller width is the one to be applied due to specificity of the same class
 
 ## Notes
 

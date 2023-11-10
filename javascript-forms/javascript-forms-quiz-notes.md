@@ -20,7 +20,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   prevents default action from being taken if the event is not handled
 
 - What does submitting a form without `event.preventDefault()` do?
-  prevents submission
+  forces the page to reset and reload
 
 - What property of a form element object contains all of the form's controls.
   elements property
