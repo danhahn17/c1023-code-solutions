@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrow `This`</title>
+  </head>
+
+  <body>
+    <div id="root">
+      <button>Click Me</button>
+    </div>
+    <script>
+      document.querySelector('#root').addEventListener('click', function () {
+        console.log(
+          'The value of "this" in a standard function is defined by the calling object:',
+          this
+        );
+      });
+      document
+        .querySelector('#root')
+        .addEventListener('click', () =>
+          console.log(
+            'The value of "this" in an arrow function is taken from lexical scope:',
+            this
+          )
+        );
+    </script>
+  </body>
+</html>
