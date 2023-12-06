@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "@typescript-eslint/no-inferrable-types": 0,
+    "@typescript-eslint/typedef": [
+      "error",
+      {
+        "variableDeclaration": true
+      }
+    ]
+  }
+}
