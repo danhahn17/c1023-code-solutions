@@ -21,7 +21,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   2009
 
 - What backend languages have you heard of?
-  javascript, java, python, c++, perl, php, c#, ruby
+  javascript, java, python, c++, perl, php, c#, ruby,
 
 ## Notes
 
