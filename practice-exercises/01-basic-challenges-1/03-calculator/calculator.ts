@@ -3,5 +3,22 @@ export function calculator(
   num2: number,
   operator: string
 ): number {
-  return 0;
+  let result: number;
+  switch (operator) {
+    case '+':
+      result = num1 + num2;
+      break;
+    case '-':
+      result = num1 - num2;
+      break;
+    case '*':
+      result = num1 * num2;
+      break;
+    case '/':
+      result = num1 / num2;
+      break;
+    default:
+      throw new Error('Invalid Operator');
+  }
+  return result;
 }
