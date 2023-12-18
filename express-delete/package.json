@@ -1,0 +1,25 @@
+{
+  "name": "express-delete",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "ts-node-esm server.ts",
+    "dev": "nodemon server.ts"
+  },
+  "nodemonConfig": {
+    "execMap": {
+      "ts": "ts-node-esm",
+      "js": "ts-node-esm"
+    }
+  }
+}
