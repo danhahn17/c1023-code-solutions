@@ -16,6 +16,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   ease of categorization, collaboration, etc.
 
 - What is one way to see if PostgreSQL is running?
+  sudo service postgresql status
 
 ## Notes
 
