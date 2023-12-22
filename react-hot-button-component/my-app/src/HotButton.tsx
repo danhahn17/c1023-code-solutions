@@ -24,7 +24,7 @@ export function HotButton({ text, color }: Props) {
               : count >= 12
               ? 'rgb(246,178,107)'
               : count >= 9
-              ? 'rgb(224,102,102ed'
+              ? 'rgb(224,102,102)'
               : count >= 6
               ? 'rgb(103,78,167)'
               : count >= 3
