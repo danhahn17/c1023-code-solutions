@@ -24,7 +24,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   updates the variable and triggers react to render the component again
 
 - When does the local `state variable` get updated with the new value?
-  retain the data between renders
+  after the re-render
 
 ## Notes
 
