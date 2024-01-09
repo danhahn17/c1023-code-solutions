@@ -1,0 +1,19 @@
+.hidden {
+  display: none;
+}
+
+.circle {
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.counter {
+  color: black;
+}
