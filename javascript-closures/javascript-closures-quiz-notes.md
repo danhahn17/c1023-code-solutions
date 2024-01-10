@@ -11,10 +11,10 @@ After completing this exercise, you should be able to discuss or answer the foll
   closures
 
 - What values does a closure contain?
-  function reference - encloses the current variable scope into it
+  captures values on the outer scope
 
 - When is a closure created?
-  when a function is created
+  when a function is created - when a function is referenced
 
 - How can you tell if a function will be created with a closure?
 
